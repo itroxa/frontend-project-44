@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
 import startEngine from '../src/index.js';
-import { generateQA, gameRules } from './games/calc.js';
+import { generateQA, gameRules } from '../src/games/calc.js';
 
 startEngine(generateQA, gameRules);
