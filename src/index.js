@@ -1,9 +1,7 @@
 import readlineSync from 'readline-sync';
 
-// Game Settings
 const roundAmount = 3;
 
-// Game Engine
 const startEngine = (generateQA, gameRules) => {
   let attempts = 0;
   let userAnswer;
