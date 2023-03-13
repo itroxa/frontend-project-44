@@ -1,4 +1,4 @@
-import { getRandomNumber } from '../utils.js';
+import getRandomNumber from '../utils.js';
 
 export const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
 
